@@ -85,7 +85,7 @@ document.addEventListener("DOMContentLoaded", function() {
 			y: Math.random() * ctx.canvas.height,
 			width: 100,
 			height: 50,
-			color: "rgba(0, 255, 0, 0.3)" // สีเขียวโปร่งแสง
+			color: "rgba(81, 255, 0, 0.4)" // สีเขียวโปร่งแสง
 		});
 	});
 

@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", function() {
 		// วาดข้อความแสดงสถานะของปุ่มที่กด
 		ctx.font = "20px Tahoma";
 		ctx.fillStyle = "black";
-		ctx.fillText("Keys: " + Object.keys(keys).filter(key => keys[key]).join(", "), 10, 30);
+		ctx.fillText("Keys: " + Object.keys(keys).filter(key => keys[key]).join(","), 10, 30);
 		// Object.keys(keys) จะได้รายชื่อปุ่มทั้งหมดที่ถูกกด
 		// filter จะกรองเฉพาะปุ่มที่มีค่าเป็น true (กดอยู่)
 		// join จะรวมปุ่มที่กดเป็นสตริงเดียวกัน
